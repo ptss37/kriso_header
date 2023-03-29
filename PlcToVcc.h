@@ -47,9 +47,9 @@ typedef struct _PlcToVcc
     uint16_t rsv3539;
 
     uint16_t sr_str_rpm;
-    uint16_t sr_str_ang;
+    int16_t sr_str_ang;
     uint16_t sl_str_rpm;
-    uint16_t sl_str_ang;
+    int16_t sl_str_ang;
     uint16_t batt400vdc;
     uint16_t batt24vdc_1;
     uint16_t batt24vdc_2;
